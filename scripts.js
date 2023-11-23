@@ -1,5 +1,13 @@
 function getArguments() {
-  var num1 = prompt('Перше число:'); // Запит першого числа
-  var num2 = prompt('Друге число:'); // Запит другого числа
+  var num1 = prompt('Перше число:');
+  var num2 = prompt('Друге число:');
+  return [parseInt(num1), parseInt(num2)]; // Повертає масив з числами
 }
-window.addEventListener('load', getArguments); // Виклик функції getArguments після завантаження сторінки
+function calcMult(a, b) {
+  return a * b; // Повертає добуток двох чисел
+}
+window.addEventListener('load', function() {
+  var numbers = getArguments(); // Отримує два числа
+  var mult = calcMult(numbers[0], numbers[1]); // Рахує добуток чисел
+  alert('Добуток введених чисел: ' + mult); // Показує добуток чисел на екрані
+});
