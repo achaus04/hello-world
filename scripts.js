@@ -1,5 +1,5 @@
-function showMessage() {
-  alert('Hello World!'); // Функція showMessage() викликає функцію alert() з повідомленням 'Hello World!'
-
+function getArguments() {
+  var num1 = prompt('Перше число:'); // Запит першого числа
+  var num2 = prompt('Друге число:'); // Запит другого числа
 }
-window.addEventListener('load', showMessage); // Відправити подію "load" на вікно, коли сторінка завантажена
+window.addEventListener('load', getArguments); // Виклик функції getArguments після завантаження сторінки
