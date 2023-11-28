@@ -32,5 +32,14 @@ IMG{
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.7);
 }
-
-
+p{
+	text-align: center;
+	font-weight: bold;
+    border: 3px ridge darkviolet;
+    background: rgba(60, 255, 0, 0.8);
+    width: 40%;
+    margin: 0 auto;
+    box-sizing: border-box;
+	margin-top: 50px;
+	padding: 5px;
+}
