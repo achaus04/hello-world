@@ -22,7 +22,7 @@ H1{
     box-sizing: border-box;
     margin-bottom: 20px;
 }
-IMG{
+.super{
     margin: 0 auto;
     margin-top: 20px;
     border: 6px ridge green;
@@ -42,4 +42,18 @@ p{
     box-sizing: border-box;
 	margin-top: 50px;
 	padding: 5px;
+}
+
+.telegram{
+	margin-bottom: -5px;
+	margin-right: 5px;
+}
+
+.gmail{
+	margin-bottom: -5px;
+	margin-right: 5px;
+}
+.telephone{
+	margin-bottom: -5px;
+	margin-right: 5px;
 }
